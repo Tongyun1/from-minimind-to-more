@@ -375,7 +375,7 @@ DeepSeek-V2引入了MLA（Multi-Head Latent Attention）以极大地压缩KV Cac
 
 数据在拥有了位置感之后，即将涌入深层网络进行复杂的特征提取。但在进入注意力机制的‘洪流’之前，还需要一道关键的‘阀门’来确保流动的稳定。 **在下一篇文章中，我们将剖析 Pre-Norm RMSNorm 的设计哲学**。
 
-## 10. 动手实践：Minimind注释版
+## 10. 动手实践：Minimind代码解析
 
 以下是https://github.com/jingyaogong/minimind的model/model_minimind.py中的位置编码部分，我进行了详细注释
 
