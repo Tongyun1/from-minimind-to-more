@@ -1,3 +1,5 @@
+<img width="1314" height="432" alt="Image" src="https://github.com/user-attachments/assets/c2b6252a-a09d-4533-933a-a6ff4d420dc9" />
+
 # From Minimind to More 🚀
 
 > 感谢Minimind原作者的无私开源！
