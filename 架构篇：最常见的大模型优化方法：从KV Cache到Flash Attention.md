@@ -416,7 +416,7 @@ DeepSeek-V2/V3 引入了 **Multi-Head Latent Attention (MLA)** 。MLA 通过低�
 
 ## 9. 动手实践：Minimind代码解析
 
-以下是https://github.com/jingyaogong/minimind的model/model_minimind.py中的attention部分，我进行了详细注释
+以下是https://github.com/jingyaogong/minimind 的model/model_minimind.py中的attention部分，我进行了详细注释
 
 ```python
 def repeat_kv(x: torch.Tensor, n_rep: int) -> torch.Tensor:

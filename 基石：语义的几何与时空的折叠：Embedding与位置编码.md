@@ -377,7 +377,7 @@ DeepSeek-V2引入了MLA（Multi-Head Latent Attention）以极大地压缩KV Cac
 
 ## 10. 动手实践：Minimind代码解析
 
-以下是https://github.com/jingyaogong/minimind的model/model_minimind.py中的位置编码部分，我进行了详细注释
+以下是https://github.com/jingyaogong/minimind 的model/model_minimind.py中的位置编码部分，我进行了详细注释
 
 ```python
 def precompute_freqs_cis(dim: int, end: int = int(32 * 1024), rope_base: float = 1e6,

@@ -534,7 +534,7 @@ Tokenization 是自然语言处理中一个古老而又充满活力的领域。�
 
 ## 10. Minimind的tokenizer实现
 
-看完上面的介绍后，你应该可以流畅地看懂Minimind做了什么。我给Minimind的代码写了详细注释。
+看完上面的介绍后，你应该可以流畅地看懂Minimind做了什么。我给Minimind的tokenizer代码写了详细注释。
 
 ```python
 """
