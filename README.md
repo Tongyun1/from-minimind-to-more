@@ -6,7 +6,7 @@
 
 ## 📖 项目简介 | Introduction
 
-本项目是我个人基于https://github.com/jingyaogong/minimind的学习笔记与思考。我从Minimind出发，系统性梳理了其中涉及到的知识点，并附带了相关的其他要点。**我希望本项目能够不仅让读者看懂Minimind，更能对大模型的技术体系建立一个全面的insight**。
+本项目是我个人基于https://github.com/jingyaogong/minimind 的学习笔记与思考。我从Minimind出发，系统性梳理了其中涉及到的知识点，并附带了相关的其他要点。**我希望本项目能够不仅让读者看懂Minimind，更能对大模型的技术体系建立一个全面的insight**。
 
 这里不仅包含了我对 LLM 关键技术的深度思考与原理解析，也整理了面向求职的面试题库。无论你是想深入了解 Minimind 架构与训练的细节，还是准备相关领域的面试，希望这里的内容能**最大化减少你到处找资料的次数**，并给你带来启发。
 
@@ -50,4 +50,4 @@
 ## 🤝 交流与致谢
 如果你发现文章中有任何错误，或者有更好的见解，欢迎提交 Issue 或 PR。
 
-再次感谢Minimind原作者的无私开源。同时，感谢https://github.com/hans0809/MiniMind-in-Depth，我从该项目中学到了很多。
+再次感谢Minimind原作者的无私开源。同时，感谢https://github.com/hans0809/MiniMind-in-Depth ，我从该项目中学到了很多。
