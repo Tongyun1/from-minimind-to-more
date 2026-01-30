@@ -1,8 +1,8 @@
-本文基于Minimind使用到的优化技术，对 **KV Cache**、**Attention 变体（MQA/GQA）** 以及 **Flash Attention** 进行了梳理和总结。由于大模型的优化是一个庞大而复杂的技术体系，Minimind仅仅使用了其中最简单常用的一部分。若读者希望更深入地了解这些技术，可以参考另一篇文章《大规模语言模型推理与训练优化机制》。此外，也推荐阅读Jay Alammar大佬的文章https://jalammar.github.io/illustrated-gpt2/。
-
-------
-
 # 最常见的大模型优化方法：从KV Cache到Flash Attention
+
+## 写在前面
+
+本文基于Minimind使用到的优化技术，对 **KV Cache**、**Attention 变体（MQA/GQA）** 以及 **Flash Attention** 进行了梳理和总结。由于大模型的优化是一个庞大而复杂的技术体系，Minimind仅仅使用了其中最简单常用的一部分。若读者希望更深入地了解这些技术，可以参考另一篇文章《大规模语言模型推理与训练优化机制》。此外，也推荐阅读Jay Alammar大佬的文章https://jalammar.github.io/illustrated-gpt2/。
 
 ## 1. 摘要
 

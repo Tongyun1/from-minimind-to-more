@@ -1,6 +1,6 @@
-# 架构篇: 解析整体 Transformer Block
+# 架构篇: Minimind的设计架构目录
 
-## 1. 全局视野：Decoder-Only 的极简美学
+## 1. 全局视野
 
 `MiniMind` 虽然麻雀虽小（最小仅 26M 参数），但五脏俱全。它并没有因为追求极致的小而牺牲架构的先进性，反而全面对齐了 Llama 3、DeepSeek-V2 等前沿大模型的设计规范。
 

@@ -1,8 +1,10 @@
-# 语义的几何与时空的折叠：Embedding与位置编码（RoPE & YaRN）的深度全景报告
+# 架构篇：语义的几何与时空的折叠：Embedding与位置编码（RoPE & YaRN）
 
 ## 写在前面
 
 请在阅读本文之后再去看minimind的代码，以便于快速理解其实现。本文在最后附有minimind的位置编码实现的详细注释。
+
+本文涉及一些数学公式，不难，请循序渐进地看。
 
 ## 1. 引言：从离散符号到连续时空的认知跨越
 
@@ -12,11 +14,13 @@
 
 随着模型规模从GPT-2的1.5亿参数跃升至GPT-4、Llama 3及DeepSeek-V3的万亿级别，以及上下文窗口（Context Window）从最初的1024 tokens扩展至128k甚至1M+，位置编码技术经历了从简单的加性正弦编码（Sinusoidal APE）到旋转位置编码（Rotary Positional Embedding, RoPE），再到结合神经正切核（Neural Tangent Kernel, NTK）理论与熵调节机制的YaRN（Yet another RoPE extensioN）的深刻演进。这一演进过程不仅仅是数学技巧的迭代，更是一场关于如何让神经网络在有限的训练数据中理解无限延伸的“相对距离”与“语义关联”的认知革命。
 
-本报告将以15,000字以上的篇幅，对Embedding的基础原理、位置编码的历史沿革、RoPE的数学几何本质、以及应对长上下文挑战的YaRN体系进行详尽、透彻且具有前瞻性的深度剖析。
+本文将对Embedding的基础原理、位置编码的历史沿革、RoPE的数学几何本质、以及应对长上下文挑战的YaRN体系进行详尽、透彻且具有前瞻性的深度剖析。
 
 ## 2. 语义的基石：Embedding与向量空间模型
 
-在深入探讨复杂的位置编码之前，必须首先构建对Embedding这一概念的物理直觉。Embedding不仅是LLM的输入层，它是整个现代NLP大厦赖以建立的公理化假设——**分布语义学（Distributional Semantics）**的数学实现。
+**还是那个问题：电脑为什么能看懂你打的字？**
+
+在深入探讨复杂的位置编码之前，必须首先构建对Embedding这一概念的物理直觉。Embedding不仅是LLM的输入层，它是整个现代NLP大厦赖以建立的公理化假设：**分布语义学（Distributional Semantics）**的数学实现。
 
 ### 2.1 符号的离散性与计算的连续性
 
@@ -31,7 +35,7 @@ Embedding层的引入，旨在将这些离散的ID映射到一个低维（通常
 
 ### 2.2 几何空间中的意义：分布语义假设
 
-Embedding的核心哲学源于语言学家J.R. Firth的名言：“你会通过一个词的伴随词来认识它（You shall know a word by the company it keeps）。”
+**Embedding的核心哲学源于语言学家J.R. Firth的名言：“你会通过一个词的伴随词来认识它（You shall know a word by the company it keeps）。”**
 
 在神经网络的训练过程中，Embedding矩阵（即Lookup Table，形状为 $V \times D$）通过反向传播算法不断调整。如果两个词经常出现在相似的上下文中（例如“喝”经常搭配“水”和“茶”），模型为了最小化预测误差，会将这两个词的Embedding向量在空间中推向彼此。
 
@@ -253,8 +257,6 @@ NTK-Aware Scaling的核心思想是：**对不同频率的维度应用不同程�
 - 当 $L_{current} \le L_{train}$ 时，不缩放，模型表现如初。
 - 当 $L_{current}$ 逐渐增加时，缩放力度平滑介入。 这种方法让模型在全长度范围内都能保持最佳状态 。
 
-------
-
 ## 7. YaRN (Yet another RoPE extensioN)：集大成者
 
 尽管NTK-Aware Scaling取得了巨大成功，但它在处理超长上下文（如100k+）时仍存在理论缺陷。YaRN的提出，旨在修正这些缺陷，成为目前最完善的RoPE扩展框架。它结合了**NTK-by-parts（分段NTK）**和**熵/温度调节（Temperature Scaling）** 。
@@ -342,8 +344,6 @@ DeepSeek-V2引入了MLA（Multi-Head Latent Attention）以极大地压缩KV Cac
 - **RoPE Vector**：负责位置，不参与压缩，直接应用RoPE。
 
   在计算Attention时，将两部分的Score相加。这一设计证明了RoPE作为一种独立的几何位置模块，具有极强的架构兼容性。
-
-------
 
 ## 9. 结论与展望
 

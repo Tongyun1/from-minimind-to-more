@@ -1,4 +1,4 @@
-# 混合专家模型（MoE）深度技术分析：架构演进、核心算法与工程实践
+# 架构篇：混合专家模型（MoE）深度技术分析：架构演进、核心算法与工程实践
 
 ## 1. 引言
 
@@ -70,6 +70,8 @@ $$y = \sum_{i=1}^{N} G(x)_i E_i(x)$$
 MoE架构的性能不仅取决于宏观的路由策略，更取决于微观的组件设计。现代MoE模型（特别是DeepSeek、Llama系列）普遍采用了SwiGLU作为专家网络的核心激活单元。
 
 ### 3.1 SwiGLU 激活函数
+
+**划重点，你面试要考的~**
 
 在深度学习的发展历程中，激活函数（Activation Function）扮演着神经元“开关”的角色。早期的 ReLU 简单粗暴，解决了梯度消失问题；随后的 GeLU 在 BERT 和 GPT-2 中引入了概率思想；而到了 Llama、Mistral 和 MoE（混合专家模型）统治的时代，SwiGLU 凭借其卓越的性能，成为了新的架构首选。
 
@@ -254,8 +256,6 @@ class FeedForward(nn.Module):
 
 ```
 
-
-
 ## 4. 架构形态：DeepSeek的探索
 
 MoE架构并非一成不变。从Google的GShard到如今的DeepSeek-V3，MoE经历了一场从“粗放”到“精细”，从“云端”到“端侧”的形态演进。
@@ -296,7 +296,7 @@ $$y = \sum_{i \in A_{shared}} E_i(x) + \sum_{j \in TopK(G(x))} g_j E_j(x)$$
 
 ### 4.2 Minimind的MoE设计
 
-这里的设计比较精妙，建议与AI对话逐步搞懂所有不明白的地方。特别是如何使用不同专家来处理序列，然后再合并？以及训练和推理时的设计区别。
+这里的设计比较精妙，建议与AI对话逐步搞懂所有不明白的地方。特别是如何使用不同专家来处理序列，然后再合并。以及训练和推理时的设计区别。
 
 ```python
 class MOEFeedForward(nn.Module):
@@ -472,8 +472,6 @@ class MOEFeedForward(nn.Module):
 
         return expert_cache
 ```
-
-
 
 ## 5. 路由机制：MoE的“大脑”
 
