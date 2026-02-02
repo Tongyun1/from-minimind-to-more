@@ -34,7 +34,7 @@
 
 ### 🧠 第三部分：算法与演进 (Algorithms) - *Coming Soon*
 *本章节正在撰写中，将涵盖预训练算法、微调策略（SFT/RLHF）等核心算法细节。*
-- [ ] 预训练算法
+- [x] **预训练算法**：[算法篇：Minimind的Pretrain](./算法篇：Minimind的Pretrain.md)
 - [ ] SFT算法
 - [ ] RL算法
 
