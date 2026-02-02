@@ -16,6 +16,16 @@
 
 网页对md的解析可能有错误，如遇公式或者图片的问题请下载到本地查看。
 
+## 📢 最近更新 | News
+<details>
+<summary><b>点击展开查看历史更新日志</b></summary>
+
+- **2026-02-02**: 
+    - 完成了《架构篇：超级拼装》章节。
+    - 完成了《算法篇：Minimind的Pretrain》章节。
+
+</details>
+
 ## 📚 内容导航 | Table of Contents
 
 ### 🏗️ 第一部分：基石与原理 (Foundations)
