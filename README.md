@@ -16,6 +16,8 @@
 
 网页对md的解析可能有错误，如遇公式或者图片的问题请下载到本地查看。
 
+---
+
 ## 📢 最近更新 | News
 <details>
 <summary><b>点击展开查看历史更新日志</b></summary>
@@ -25,6 +27,8 @@
     - 完成了《算法篇：Minimind的Pretrain》章节。
 
 </details>
+
+---
 
 ## 📚 内容导航 | Table of Contents
 
@@ -63,7 +67,10 @@
 - **Phase 2 (In Progress)**: 完善 [算法篇]，深入探讨训练机制等算法细节。
 - **Phase 3 (Planned)**: 补充更多我个人的实战案例。
 
+---
+
 ## 🤝 交流与致谢
+
 如果你发现文章中有任何错误，或者有更好的见解，欢迎提交 Issue 或 PR。
 
 再次感谢Minimind原作者的无私开源。同时，感谢https://github.com/hans0809/MiniMind-in-Depth ，我从该项目中学到了很多。
