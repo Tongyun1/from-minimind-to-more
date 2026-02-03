@@ -29,6 +29,10 @@
 - **2026-02-02**: 
     - 完成了《架构篇：超级拼装》章节。
     - 完成了《算法篇：Minimind的Pretrain》章节。
+- **2026-01-30**:
+
+    - 初次更新，完成《基石》以及《架构篇》大部分内容。
+
 
 </details>
 
@@ -53,7 +57,7 @@
 ### 🧠 第三部分：算法与演进 (Algorithms) - *Coming Soon*
 *本章节正在撰写中，将涵盖预训练算法、微调策略（SFT/RLHF）等核心算法细节。*
 - [x] **预训练算法**：[算法篇：Minimind的Pretrain](./算法篇：Minimind的Pretrain.md)
-- [ ] SFT算法
+- [x] **SFT算法**：[算法篇：Minimind的SFT](./算法篇：Minimind的SFT..md)
 - [ ] RL算法
 
 ### 🎓 第四部分：求职与实战 (Career & Practice)
