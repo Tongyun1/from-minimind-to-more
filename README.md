@@ -58,7 +58,7 @@
 *本章节正在撰写中，将涵盖预训练算法、微调策略（SFT/RLHF）等核心算法细节。*
 - [x] **预训练算法**：[算法篇：Minimind的Pretrain](./算法篇：Minimind的Pretrain.md)
 - [x] **SFT算法**：[算法篇：Minimind的SFT](./算法篇：Minimind的SFT.md)
-- [ ] **大模型RL算法概览**：[算法篇：通往智能的道路？大模型强化学习算法概览](./算法篇：通往智能的道路？大模型强化学习算法概览.md)
+- [ ] **大模型RL算法概览**：[算法篇：大模型强化学习算法概览](./算法篇：大模型强化学习算法概览.md)
 - [ ] **DPO算法**：[算法篇：Minimind的DPO](./算法篇：Minimind的DPO.md)
 
 ### 🎓 第四部分：求职与实战 (Career & Practice)
