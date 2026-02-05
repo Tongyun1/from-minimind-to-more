@@ -115,7 +115,7 @@ def merge(ids, pair, idx):
     while i < len(ids):  
         #检查是否刚好碰到了我们要合并的pair，且没有越界  
         #注意: i < len(ids) - 1 是为了防止检查 ids[i+1] 时越界  
-        if i < len(ids) - 1 and ids[i] == pair and ids[i+1] == pair:  
+        if i < len(ids) - 1 and ids[i] == pair[0] and ids[i+1] == pair[1]:  
             newids.append(idx) # 替换为新的ID  
             i += 2 # 跳过接下来两个元素，因为它们已经被合并了  
         else:  
