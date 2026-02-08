@@ -22,8 +22,11 @@
 <details>
 <summary><b>点击展开查看历史更新日志</b></summary>
 
-- **2026-02-05**：
+- **2026-02-09**:
 
+    - 完成了《算法篇：Minimind的DPO》
+
+- **2026-02-05**：
     - 对《基石：关于 Tokenizer 你所需要知道的一切》中的小错误进行了修复
 
     - 正在更新DPO算法
@@ -67,7 +70,9 @@
 - [x] **预训练算法**：[算法篇：Minimind的Pretrain](./算法篇：Minimind的Pretrain.md)
 - [x] **SFT算法**：[算法篇：Minimind的SFT](./算法篇：Minimind的SFT.md)
 - [x] **大模型RL算法概览**：[算法篇：大模型强化学习算法概览](./算法篇：大模型强化学习算法概览.md)
-- [ ] **DPO算法**：[算法篇：Minimind的DPO](./算法篇：Minimind的DPO.md)
+- [x] **DPO算法**：[算法篇：Minimind的DPO](./算法篇：Minimind的DPO.md)
+- [ ] **PPO算法**：[算法篇：Minimind的PPO](./算法篇：Minimind的PPO.md)
+- [ ] **GRPO算法**：[算法篇：Minimind的GRPO](./算法篇：Minimind的GRPO.md)
 
 ### 🎓 第四部分：求职与实战 (Career & Practice)
 
