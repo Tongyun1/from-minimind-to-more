@@ -54,7 +54,7 @@
 ### 🏗️ 第一部分：基石与原理 (Foundations)
 万丈高楼平地起，这里是理解 LLM 的起点。
 - [x] **Tokenization**：[基石：关于 Tokenizer 你所需要知道的一切](./基石：关于Tokenizer你所需要知道的一切.md)
-- [x] **整体设计**：[基石：Minimind 的设计目录](./架构篇：Minimind的设计目录.md)
+- [x] **整体设计**：[基石：Minimind 的设计目录](./基石：Minimind的设计目录.md)
 - [x] **Embeddings**：[基石：语义的几何与时空的折叠：Embedding与位置编码](./基石：语义的几何与时空的折叠：Embedding与位置编码.md)
 
 ### 🏛️ 第二部分：核心架构 (Architecture)
