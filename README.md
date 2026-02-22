@@ -22,8 +22,11 @@
 <details>
 <summary><b>点击展开查看历史更新日志</b></summary>
 
-- **2026-02-15**
+- **2026-02-22**
 
+    - 完成了《算法篇：Minimind的PPO》。篇幅较长，请耐心阅读，但你一定能看懂。
+
+- **2026-02-15**
     - 最近在过年，可能更新得慢一点，后面会爆肝的😇
 
 - **2026-02-09**:
@@ -74,7 +77,7 @@
 - [x] **SFT算法**：[算法篇：Minimind的SFT](./算法篇：Minimind的SFT.md)
 - [x] **大模型RL算法概览**：[算法篇：大模型强化学习算法概览](./算法篇：大模型强化学习算法概览.md)
 - [x] **DPO算法**：[算法篇：Minimind的DPO](./算法篇：Minimind的DPO.md)
-- [ ] **PPO算法**：[算法篇：Minimind的PPO](./算法篇：Minimind的PPO.md)
+- [x] **PPO算法**：[算法篇：Minimind的PPO](./算法篇：Minimind的PPO.md)
 - [ ] **GRPO算法**：[算法篇：Minimind的GRPO](./算法篇：Minimind的GRPO.md)
 
 ### 🎓 第四部分：求职与实战 (Career & Practice)
