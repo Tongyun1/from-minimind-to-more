@@ -76,8 +76,14 @@
 - [x] **DPO算法**：[算法篇：Minimind的DPO](./算法篇：Minimind的DPO.md)
 - [x] **PPO算法**：[算法篇：Minimind的PPO](./算法篇：Minimind的PPO.md)
 - [x] **GRPO算法及其变体（Dr.GRPO,DAPO,GSPO,SAPO,GTPO）**：[算法篇：Minimind的GRPO及其变体](./算法篇：Minimind的GRPO及其变体.md)
+- [ ] **SPO算法**：[算法篇：Minimind的SPO](./算法篇：Minimind的SPO.md)
 
-### 🎓 第四部分：求职与实战 (Career & Practice)
+### 🚀 第四部分：模型优化与压缩
+- [ ] **LoRA**：[优化篇：常用LoRA类算法全解](./优化篇：常用LoRA类算法全解.md)
+- [ ] **知识蒸馏**：[优化篇：知识蒸馏](./优化篇：知识蒸馏.md)
+
+
+### 🎓 第五部分：求职与实战 (Career & Practice)
 
 *本章节正在撰写中，讲涵盖我个人对大模型求职的笔记与经验。*
 
