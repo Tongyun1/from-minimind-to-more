@@ -763,8 +763,6 @@ del enc, gen_out, responses_text, rewards ...
 
 这是因果语言模型（Causal LM）训练中最容易绕晕的地方。因为预测下一个词存在一个**“错位（Shift）”**关系。
 
-让我们用一个极简的例子，一步步推演代码里的矩阵运算。
-
 假设：
 
 - **Prompt**: `[A, B]` (长度 $P=2$)

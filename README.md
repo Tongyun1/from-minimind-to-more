@@ -22,27 +22,24 @@
 <details>
 <summary><b>点击展开查看历史更新日志</b></summary>
 
+- **2026-02-24**
+
+    - 完成了《算法篇：Minimind的GRPO》。包含源码解析以及其他算法变体讲解。
+
 - **2026-02-22**
-
     - 完成了《算法篇：Minimind的PPO》。篇幅较长，请耐心阅读，但你一定能看懂。
-
 - **2026-02-15**
     - 最近在过年，可能更新得慢一点，后面会爆肝的😇
-
 - **2026-02-09**:
     - 完成了《算法篇：Minimind的DPO》
-
 - **2026-02-05**：
     - 对《基石：关于 Tokenizer 你所需要知道的一切》中的小错误进行了修复
 
     - 正在更新DPO算法
-
 - **2026-02-04**：
     - 完成了《算法篇：大模型强化学习算法概览》
-
 - **2026-02-03**：
     - 完成了《算法篇：Minimind的SFT》章节。
-
 - **2026-02-02**: 
     - 完成了《架构篇：超级拼装》章节。
     - 完成了《算法篇：Minimind的Pretrain》章节。
@@ -78,7 +75,7 @@
 - [x] **大模型RL算法概览**：[算法篇：大模型强化学习算法概览](./算法篇：大模型强化学习算法概览.md)
 - [x] **DPO算法**：[算法篇：Minimind的DPO](./算法篇：Minimind的DPO.md)
 - [x] **PPO算法**：[算法篇：Minimind的PPO](./算法篇：Minimind的PPO.md)
-- [ ] **GRPO算法**：[算法篇：Minimind的GRPO](./算法篇：Minimind的GRPO.md)
+- [x] **GRPO算法及其变体（Dr.GRPO,DAPO,GSPO,SAPO,GTPO）**：[算法篇：Minimind的GRPO及其变体](./算法篇：Minimind的GRPO及其变体.md)
 
 ### 🎓 第四部分：求职与实战 (Career & Practice)
 
