@@ -68,7 +68,7 @@
 - [x] **搭建我们自己的大模型**：[架构篇：超级拼装](./架构篇：超级拼装.md)
 - [x] **(可选阅读)**：[大规模语言模型推理与训练优化机制](./可选：大规模语言模型推理与训练优化机制.md)
 
-### 🧠 第三部分：算法与演进 (Algorithms) - *Coming Soon*
+### 🧠 第三部分：算法与演进 (Algorithms) - Updating
 *本章节正在撰写中，将涵盖预训练算法、微调策略（SFT/RLHF）等核心算法细节。*
 - [x] **预训练算法**：[算法篇：Minimind的Pretrain](./算法篇：Minimind的Pretrain.md)
 - [x] **SFT算法**：[算法篇：Minimind的SFT](./算法篇：Minimind的SFT.md)
@@ -78,7 +78,7 @@
 - [x] **GRPO算法及其变体（Dr.GRPO,DAPO,GSPO,SAPO,GTPO）**：[算法篇：Minimind的GRPO及其变体](./算法篇：Minimind的GRPO及其变体.md)
 - [ ] **SPO算法**：[算法篇：Minimind的SPO](./算法篇：Minimind的SPO.md)
 
-### 🚀 第四部分：模型优化与压缩
+### 🚀 第四部分：模型优化与压缩 - Coming soon
 - [ ] **LoRA**：[优化篇：常用LoRA类算法全解](./优化篇：常用LoRA类算法全解.md)
 - [ ] **知识蒸馏**：[优化篇：知识蒸馏](./优化篇：知识蒸馏.md)
 
