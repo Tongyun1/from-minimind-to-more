@@ -373,7 +373,7 @@ DeepSeek-V2引入了MLA（Multi-Head Latent Attention）以极大地压缩KV Cac
 | **NTK-Aware**        | Base Change             | 强               | 优           | 保持高频分辨率，Zero-shot外推  | 极长文仍有瓶颈                         |
 | **YaRN**             | NTK-by-parts + Temp     | 强               | 极优         | 完美平衡插值与外推，修正熵漂移 | 实现稍复杂                             |
 
-数据在拥有了位置感之后，即将涌入深层网络进行复杂的特征提取。但在进入注意力机制的‘洪流’之前，还需要一道关键的‘阀门’来确保流动的稳定。 **在下一篇文章中，我们将剖析 Pre-Norm RMSNorm 的设计哲学**。
+但在数据真正进入注意力机制、获取‘位置感’（RoPE）并产生深度交互之前，我们首先需要一道关键的‘阀门’来确保数据流动的稳定。**在下一篇文章中，我们将剖析 Pre-Norm RMSNorm 的设计。**
 
 ## 10. 动手实践：Minimind代码解析
 
