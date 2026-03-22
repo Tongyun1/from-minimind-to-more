@@ -690,8 +690,6 @@ $$s_i(\theta) = \left( \frac{\pi_\theta(y_i|x)}{\pi_{\theta_{old}}(y_i|x)} \righ
 
 - **改进效果：** Qwen 团队发现，使用 GSPO 训练庞大的 MoE 模型时，路由网络不再发生剧烈漂移。因此，可以**完全废弃掉昂贵的 Routing Replay** 机制，模型依然能稳定收敛，大幅提升了训练吞吐量。
 
-#### 
-
 ## 9 SAPO：平滑软优势策略优化 (Soft Advantage Policy Optimization)
 
 SAPO 是由阿里 Qwen 团队近期提出的一项重磅改进（目前已集成在 `ms-swift` 和 Hugging Face 的 `trl` 框架中）。既然你之前深入研究过 **MoE（混合专家模型）** 的底层架构，理解 SAPO 会非常自然，因为 SAPO 解决的核心痛点之一，恰恰是在给带有复杂路由的 MoE 模型做 RL 时极易引发的崩溃问题。
