@@ -110,7 +110,7 @@ def merge(ids, pair, idx):
     输出:  
     newids (list): 合并后的新列表  
     """  
-    newids =  
+    newids =  []
     i = 0  
     while i < len(ids):  
         #检查是否刚好碰到了我们要合并的pair，且没有越界  
@@ -462,7 +462,7 @@ def encode(text, special_tokens):
     # splits: ["Hello ", "<|endoftext|>", " world"]  
     splits = re.split(special_pattern, text)  
       
-    final_ids =  
+    final_ids =  []
     for part in splits:  
         if part in special_tokens:  
             # 如果是特殊Token，直接追加ID  
