@@ -462,7 +462,7 @@ def encode(text, special_tokens):
     # splits: ["Hello ", "<|endoftext|>", " world"]  
     splits = re.split(special_pattern, text)  
       
-    final_ids =  
+    final_ids =  []
     for part in splits:  
         if part in special_tokens:  
             # 如果是特殊Token，直接追加ID  
