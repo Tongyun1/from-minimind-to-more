@@ -110,7 +110,7 @@ def merge(ids, pair, idx):
     输出:  
     newids (list): 合并后的新列表  
     """  
-    newids =  
+    newids =  []
     i = 0  
     while i < len(ids):  
         #检查是否刚好碰到了我们要合并的pair，且没有越界  
