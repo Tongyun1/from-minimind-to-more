@@ -426,8 +426,8 @@ def precompute_freqs_cis(dim: int, end: int = int(32 * 1024), rope_base: float =
             # 计算频率调整的边界维度
             # inv_dim(b) 返回频率为 b 的维度索引
             inv_dim = lambda b: (dim * math.log(orig_max / (b * 2 * math.pi))) / (2 * math.log(rope_base))
-            low = max(math.floor(inv_dim(beta_fast)), 0)  # 低频边界
-            high = min(math.ceil(inv_dim(beta_slow)), dim // 2 - 1)  # 高频边界
+            low = max(math.floor(inv_dim(beta_fast)), 0)  # 高频边界
+            high = min(math.ceil(inv_dim(beta_slow)), dim // 2 - 1)  # 低频边界
             
             # 计算线性斜坡函数 γ
             #   对于维度 i：γ(i) = (i - low) / (high - low)，限制在 [0, 1]
